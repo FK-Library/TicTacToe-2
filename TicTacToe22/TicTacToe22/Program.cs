@@ -9,7 +9,7 @@ var winner = new Winner();
 winner.Won = false;
 
 var inputService = new InputService();
-var display = new Dislay(board);
+var display = new Display(board);
 
 
 while (!winner.Won)
@@ -20,15 +20,6 @@ while (!winner.Won)
     //collect payer 1 & 2  input
     var details = inputService.CollectDetails();
 
-    //Console.WriteLine(details.Players[0].Name);
-    //Console.WriteLine(details.Players[0].X);
-    //Console.WriteLine(details.Players[0].Y);
-
-
-
-    //Console.WriteLine(details.Players[1].Name);
-    //Console.WriteLine(details.Players[1].X);
-    //Console.WriteLine(details.Players[1].Y);
 
 
     foreach (var item in details.Players)

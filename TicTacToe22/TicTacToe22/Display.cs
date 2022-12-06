@@ -6,25 +6,28 @@ using System.Threading.Tasks;
 
 namespace TicTacToe22
 {
-    public class Dislay
+    public class Display
     {
         public string[][] Board { get; set; }
 
-        public Dislay(string[][] board)
+        public Display(string[][] board)
         {
             Board = board;
         }
 
         public void DisplayBoard(string[][] board)
         {
+            var formatted = "";
+            Console.WriteLine("\n");
+
             for (int i = 0; i < board.GetLength(0); i++)
             {
                 for (int j = 0; j < board[i].Length; j++)
                 {
-                    Console.WriteLine( $"{ board[i][j]} ");
+                    formatted = board[i][j].Equals("Z") ? " " : board[i][j];
+                    Console.Write( $@" - | {formatted} | - ");
                 }
                 Console.WriteLine("\n");
-
             }
         }
     }
