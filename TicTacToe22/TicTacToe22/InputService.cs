@@ -34,7 +34,7 @@ namespace TicTacToe22
         public Player CollectPlayerDetails()
         {
             
-            string[][] choices = { new string []{"Z","Z","Z" }, new string[] { "Z", "Z", "Z" }, new string[] { "Z", "Z", "Z" } };
+          //  string[][] choices = { new string []{"Z","Z","Z" }, new string[] { "Z", "Z", "Z" }, new string[] { "Z", "Z", "Z" } };
             var x = 0;
             var y = 0;
             var validInput = false;
@@ -51,11 +51,11 @@ namespace TicTacToe22
                 var inputArray = input.Split(' ').ToArray();
                 x= int.Parse(inputArray[0]);
                 y = int.Parse(inputArray[1]);
-                choices[x][y] = inputArray[1].ToString();
+              //  choices[x][y] = inputArray[1].ToString();
 
             }
 
-            return new Player(x, y, choices);
+            return new Player(x, y); //, choices);
         }
 
     }

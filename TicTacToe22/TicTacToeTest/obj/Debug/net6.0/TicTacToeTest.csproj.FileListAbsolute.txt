@@ -97,3 +97,9 @@ C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToeTest\
 C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToeTest\obj\Debug\net6.0\TicTacToeTest.pdb
 C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToeTest\obj\Debug\net6.0\TicTacToeTest.genruntimeconfig.cache
 C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToeTest\obj\Debug\net6.0\ref\TicTacToeTest.dll
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToeTest\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToeTest\bin\Debug\net6.0\TicTacToe22.deps.json
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToeTest\bin\Debug\net6.0\TicTacToe22.runtimeconfig.json
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToeTest\bin\Debug\net6.0\TicTacToe22.exe
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToeTest\bin\Debug\net6.0\TicTacToe22.dll
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToeTest\bin\Debug\net6.0\TicTacToe22.pdb
