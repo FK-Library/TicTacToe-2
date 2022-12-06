@@ -1,0 +1,15 @@
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\bin\Debug\net6.0\TicTacToe22.exe
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\bin\Debug\net6.0\TicTacToe22.deps.json
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\bin\Debug\net6.0\TicTacToe22.runtimeconfig.json
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\bin\Debug\net6.0\TicTacToe22.dll
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\bin\Debug\net6.0\TicTacToe22.pdb
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\obj\Debug\net6.0\TicTacToe22.csproj.AssemblyReference.cache
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\obj\Debug\net6.0\TicTacToe22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\obj\Debug\net6.0\TicTacToe22.AssemblyInfoInputs.cache
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\obj\Debug\net6.0\TicTacToe22.AssemblyInfo.cs
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\obj\Debug\net6.0\TicTacToe22.csproj.CoreCompileInputs.cache
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\obj\Debug\net6.0\TicTacToe22.dll
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\obj\Debug\net6.0\refint\TicTacToe22.dll
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\obj\Debug\net6.0\TicTacToe22.pdb
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\obj\Debug\net6.0\TicTacToe22.genruntimeconfig.cache
+C:\Users\Price's\source\repos\TicTacToe-2\TicTacToe-2\TicTacToe22\TicTacToe22\obj\Debug\net6.0\ref\TicTacToe22.dll
