@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace TicTacToe22
 {
     public enum Choice
-    { 
+    {
         X,
         O
     }

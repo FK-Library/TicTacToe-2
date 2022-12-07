@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace TicTacToe22
 {
-    public  class InputResult
+    public class InputResult
     {
-      public  List<Player> Players { get; set; }
+        public List<Player> Players { get; set; }
     }
 }

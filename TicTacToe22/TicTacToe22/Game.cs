@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace TicTacToe22
 {
+    /**
+     * Injected all services here 
+     * More Games with different ruls can be added here
+     * Or if we change any services logic, e.g adding a rule, this Service wont be affected
+     */
     public class Game
     {
         public InputService InputService { get; set; }
-
         public MovementService MovementService { get; set; }
         public ApplyRulesService ApplyRulesService { get; set; }
         public Display Display { get; set; }
@@ -33,8 +37,8 @@ namespace TicTacToe22
             var player = this.InputService.CollectDetails("X");
             var winner = player;
 
-            while (!(win|| isBoardFull))
-            {                
+            while (!(win || isBoardFull))
+            {
                 var TupplePlayerAndBoard = this.MovementService.FillBoard(player, board);
                 this.Display.DisplayBoard(board);
 
@@ -45,7 +49,7 @@ namespace TicTacToe22
                 }
 
                 isBoardFull = this.ApplyRulesService.IsBoardFilled(board);
-                
+
                 player = this.InputService.CollectDetails(SwitchPlayer(player.Name));
             }
 
@@ -55,9 +59,9 @@ namespace TicTacToe22
                 Display.DisplayBoard(board);
             }
 
-            if(!win && isBoardFull)
+            if (!win && isBoardFull)
             {
-                Console.WriteLine(" Seems nobody won - goodluck next time");
+                Console.WriteLine(" No Win - goodluck next time");
             }
 
         }

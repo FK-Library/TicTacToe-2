@@ -12,11 +12,9 @@ namespace TicTacToe22
         public int X { get; set; }
         public int Y { get; set; }
 
-        public Player(int x, int y,string name)
+        public Player(int x, int y, string name)
         {
             X = x; Y = y; Name = name;
-
         }
-
     }
 }

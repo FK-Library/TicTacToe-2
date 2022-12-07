@@ -11,26 +11,17 @@ namespace TicTacToe22
 {
     public class InputService
     {
-        public Player CollectDetails(string label)
-        {
+        public Player CollectDetails(string label) => this.CollectPlayerDetails(label);
 
-            var player = this.CollectPlayerDetails(label);
-            ////player1.Name = "X";
-
-            //var player2 = this.CollectPlayerDetails("Y");
-            ////player2.Name = "O";
-            //return new InputResult()
-            //{
-            //    Players = new List<Player> { player1, player2 }
-            //};
-
-            return player;
-        }
-
+        /**
+         *  even if user enters o instead of X , game is picking up the correct letter
+         *  but it should only be entered X 0r O 
+         *  delimiter is one space, more delimiters can be added
+         */
         public bool ValidateChoice(string input)
         {
             string pattern = @"^[0-3] [0-3] [X|O]$";
-            return Regex.IsMatch(input, pattern, RegexOptions.IgnoreCase); //TODO:check playaer 1 enters x not o
+            return Regex.IsMatch(input, pattern, RegexOptions.IgnoreCase);
         }
 
         public Player CollectPlayerDetails(string name)
@@ -45,16 +36,13 @@ namespace TicTacToe22
                 var input = Console.ReadLine();
                 validInput = ValidateChoice(input);
                 if (!validInput)
-                {
-                    Console.WriteLine("Invalid please try again");
-                }
+                    Console.WriteLine("Invalid please try again"); //throws exception here -> TODO: handle the exception for preventing intruption in the game
 
                 var inputArray = input.Split(' ').ToArray();
                 x = int.Parse(inputArray[0]);
                 y = int.Parse(inputArray[1]);
-                //Todo check if it is entered X or O
             }
-            return new Player(x, y,name);
+            return new Player(x, y, name);
         }
     }
 }

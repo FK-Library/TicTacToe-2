@@ -15,6 +15,9 @@ namespace TicTacToe22
             Board = board;
         }
 
+        /**
+         * this function displays the board, we can add more shape of demonstrating the boar without changing this or any other function
+         */
         public void DisplayBoard(string[][] board)
         {
             var formatted = "";
@@ -25,7 +28,7 @@ namespace TicTacToe22
                 for (int j = 0; j < board[i].Length; j++)
                 {
                     formatted = board[i][j].Equals("Z") ? " " : board[i][j];
-                    Console.Write( $@" - | {formatted} | - ");
+                    Console.Write($@" - | {formatted} | - ");
                 }
                 Console.WriteLine("\n");
             }

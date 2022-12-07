@@ -7,17 +7,8 @@ using System.Threading.Tasks;
 
 namespace TicTacToe22
 {
-    public  class ApplyRulesService
+    public class ApplyRulesService
     {
-        //public Player Player { get; set; }
-
-        //public string[][] Board { get; set; }
-
-        //public ApplyRulesService(Player player, string[][] board)
-        //{
-        //    Player = player; Board = board;
-
-        //}
 
         //This is handling 3X3 - need to be optimised to take any dimentions
         public bool HasWon(Player player, string[][] board)
@@ -35,29 +26,20 @@ namespace TicTacToe22
             return false;
         }
 
+        /**
+         * if there is only one z then there is a space and no need checking the whole board
+         */
         public bool IsBoardFilled(string[][] board)
         {
-  
-            var count = 0;
             for (int i = 0; i < board.GetLength(0); i++)
             {
                 for (int j = 0; j < board[i].Length; j++)
                 {
-
-                    //count = board[i][j].Equals("Z") ? count+1 : count;
-
                     if (board[i][j].Equals("Z"))
-                    {
-                        count = +1;
-
-                    }
-
-                    
+                        return false;
                 }
             }
-            var isFull = count > 0 ? false : true;
-
-            return isFull;
+            return true;
         }
 
     }
