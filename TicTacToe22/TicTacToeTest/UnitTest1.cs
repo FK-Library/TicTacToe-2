@@ -17,7 +17,7 @@ namespace TicTacToeTest
         {
             //Arrange
             var apllyRulesService = new ApplyRulesService();
-            var emptyBoard= new string[][] { new string[] { "Z", "Z", "Z" }, new string[] { "Z", "Z", "Z" }, new string[] { "Z", "Z", "Z" } };
+            var emptyBoard = new string[][] { new string[] { "Z", "Z", "Z" }, new string[] { "Z", "Z", "Z" }, new string[] { "Z", "Z", "Z" } };
             //Act
             var expected = apllyRulesService.IsBoardFilled(emptyBoard);
 
@@ -47,7 +47,7 @@ namespace TicTacToeTest
             var apllyRulesService = new ApplyRulesService();
             var emptyBoard = new string[][] { new string[] { "X", "Z", "Z" }, new string[] { "Z", "X", "Z" }, new string[] { "Z", "Z", "X" } };
             var player = new Player(0, 0, "X");
-            
+
             //Act
             var expected = apllyRulesService.HasWon(player, emptyBoard);
 
