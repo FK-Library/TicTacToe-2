@@ -46,6 +46,7 @@ namespace TicTacToe22
                 if (win)
                 {
                     winner = player;
+                    break;
                 }
 
                 isBoardFull = this.ApplyRulesService.IsBoardFilled(board);
@@ -55,13 +56,13 @@ namespace TicTacToe22
 
             if (win)
             {
-                Console.WriteLine($"Winner is {player.Name} ");
+                Console.WriteLine($"\n Congratulations {player.Name}! You Won! ");
                 Display.DisplayBoard(board);
             }
 
             if (!win && isBoardFull)
             {
-                Console.WriteLine(" No Win - goodluck next time");
+                Console.WriteLine("\n No Win - goodluck next time");
             }
 
         }
