@@ -8,14 +8,14 @@ namespace TicTacToe22
 {
     public class MovementService
     {
-        public Player Player { get; set; }
+        //public Player Player { get; set; }
 
-        public string[][] Board { get; set; }
+        //public string[][] Board { get; set; }
 
-        public MovementService(Player player,  string[][]  board)
-        {
-            Player=player;  Board = board;
-        }
+        //public MovementService(Player player,  string[][]  board)
+        //{
+        //    Player=player;  Board = board;
+        //}
 
         public bool ValidatePlayerMovement(Player player, string[][] board)
         {
@@ -48,8 +48,6 @@ namespace TicTacToe22
             return new Tuple<string[][], Player>(board, player);
 
         }
-
-
 
     }
 }
